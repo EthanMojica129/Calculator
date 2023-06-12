@@ -1,0 +1,46 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  min-width: 50vw;
+  min-height: 50vh;
+}
+
+.calculator > * {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.row {
+  grid-column: 1 / -1;
+}
+
+#display{
+  background-color: #3c91e6;
+  text-align: end;
+  color: black;
+}
+
+#clear{
+  background-color: #FA824C;
+  text-align: end;
+  color: black;
+}
+
+.button{
+  color: black;
+  background-color: grey;
+}
+
+#equals{
+  background-color: #a2d729;
+}
